@@ -27,7 +27,7 @@
     @csrf
     <div class="form-group">
       <label for="comment">コメント</label>
-      <textarea class="form-control" id="comment" type="text" rows="1" required></textarea>
+      <textarea class="form-control" name="comment" type="text" rows="1" required></textarea>
     </div>
     <div class="form-group">
       <!-- <div class="col-md-6 offset-md-4"> -->

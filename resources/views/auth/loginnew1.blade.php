@@ -15,7 +15,6 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -33,12 +32,6 @@
             background-position: center center;
             background-image: url("{{ asset('img/yuriy-mlcn-VVQeCl_Xe6g-unsplash.jpg') }}");
             }
-        
-        .sitelogo {
-            font-family: 'Parisienne', cursive;
-            /* height: 50px; */
-            color: yellow;
-        }
 
         .loginform {
             width: 100%;
@@ -58,16 +51,12 @@
 	<div class="home-wrap">
 		<div class="home-inner"></div>
 	</div>
-    <div class="sitelogo p-4">
-        <h1>Oceanman</h1>
-    </div>
     <main class="loginform py-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <div class="card shadow-lg">
-                        <!-- <div class="card-header">{{ __('Login') }}</div> -->
-                        <div class="header mt-4 mb-1 text-center"><h4>{{ __('Login') }}</h4></div>
+                    <div class="card">
+                        <div class="card-header">{{ __('Login') }}</div>
 
                         <div class="card-body">
                             <form method="POST" action="{{ route('login') }}">

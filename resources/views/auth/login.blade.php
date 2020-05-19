@@ -40,6 +40,11 @@
             top: 17%;
             z-index: 1;
         }
+
+        .loginbtn {
+            color: white;
+            background-color: #0D8F9B;
+        }
     </style>
 </head>
 <body>
@@ -99,7 +104,7 @@
 
                                 <div class="form-group row mb-3">
                                     <div class="col-md-8 offset-md-4">
-                                        <button type="submit" class="btn btn-primary">
+                                        <button type="submit" class="btn btn-light loginbtn">
                                             {{ __('Login') }}
                                         </button>
 
